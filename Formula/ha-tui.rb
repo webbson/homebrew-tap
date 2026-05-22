@@ -1,25 +1,25 @@
 class HaTui < Formula
   desc "Terminal UI for Home Assistant — multi-instance dashboards with mouse + keyboard"
   homepage "https://github.com/webbson/homeassistant-tui"
-  version "0.5.3"
+  version "0.5.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/webbson/homeassistant-tui/releases/download/v0.5.3/ha-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "a4dcd3e4a5d58493cafe329e513f9dd218da7333efe514eaeff5809c3921fbff"
+      url "https://github.com/webbson/homeassistant-tui/releases/download/v0.5.4/ha-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "97341bbb7688d4b7b4c25b4dbbfa53c03ab61a977aabdf9336ad140658ed9dae"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/webbson/homeassistant-tui/releases/download/v0.5.3/ha-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "b3c7246be415558c518b6567b001c94cf15bc92c753363d402d6e2c993c481f9"
+      url "https://github.com/webbson/homeassistant-tui/releases/download/v0.5.4/ha-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "4d882ff74fd15c5825d80dcee9c833b9ebf2719dd793fbbe9d326b92fc766060"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/webbson/homeassistant-tui/releases/download/v0.5.3/ha-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3260772f54fb223000c2a0e7d29477974e1b638a91f341535bab5505003e7875"
+      url "https://github.com/webbson/homeassistant-tui/releases/download/v0.5.4/ha-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "372216737019b0733b6e35e6e13b336bcce5031e4fb189221b49fc882886908a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/webbson/homeassistant-tui/releases/download/v0.5.3/ha-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "173444e041ad762839c339e1d930cc52b60d429bb0845bc3f3602510fc2cc9ab"
+      url "https://github.com/webbson/homeassistant-tui/releases/download/v0.5.4/ha-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "dc6b4903739444863f719f8d0057ff5cbfc6bb2b4977bd50f106b8ec74b91e03"
     end
   end
   license "MIT"
